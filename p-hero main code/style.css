@@ -7,8 +7,8 @@ body{
     border-radius: 10px;
     box-shadow: 5px 5px 10px gray;
 }
-.submit-area h4{
-    color: lightblue;
+#transaction-area{
+    display: none;
 }
 .status{
     margin: 0 20px;
@@ -16,15 +16,12 @@ body{
     padding: 20px;
     border-radius: 10px;
 }
-#transaction-area{
-    display: none;
-}
 .deposit{
-    background-color: blue;
+    background-color: slateblue;
 }
 .withdraw{
-    background-color: orange;
+    background-color: lightsalmon;
 }
 .balance{
-    background-color: aqua;
+    background-color: orange;
 }
